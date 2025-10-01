@@ -22,7 +22,7 @@
     --biggest-font-size: 2rem;
     --normal-font-size: .938rem;
     --small-font-size: .813rem;
-    --smallest-font-size: .75rem;
+    --smaller-font-size: .75rem;
     --h1-font-size: 1.5rem;
     --h2-font-size: 1.25rem;
     --h3-font-size: 1rem;
@@ -42,3 +42,16 @@
     --z-tooltip: 10;
     --z-fixed: 100;
 }
+    /* ======Responsive====== */
+
+    @media screen and (min-width: 992px) {
+        :root {
+            --biggest-font-size: 4%;
+            --normal-font-size: 1rem;
+            --small-font-size: .875em;
+            --smaller-font-size: .813rem;
+            --h1-font-size: 2.25rem;
+            --h2-font-size: 1.5rem;
+            --h3-font-size: 1.25rem;
+        }
+    }
